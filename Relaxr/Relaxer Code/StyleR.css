@@ -1,0 +1,203 @@
+* {
+	font-family: 'Open Sans' , sans-serif; 
+}
+body {
+	opacity: 0.9; 
+	background: white; 
+	width: 100%;
+	height: 100%; 
+	z-index: 100;
+	top: 0; 
+	left: 0;
+	margin: auto;
+	padding: 0;
+}
+/*^^^to give a fade feel */ 
+
+header {
+	background-image: url("images/header_bg.jpg");
+	background-size: cover;
+	height: 400px;
+	color: white;
+	padding-left: 50px;
+	text-align: center;
+	padding-top: 5px;
+}
+/*^^^ background image and header */
+
+header a {
+	font-size: 30px;
+	font-weight: 800;
+	text-align: left;
+	padding-bottom: 30px;
+	padding-left: 15px;
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	top: 10px;
+	left: 40px;
+}
+#tagline {
+	text-align: center;
+	font-size: 30px;
+	font-style: bold;
+	padding-bottom: 20px;
+	padding-top: 60px;
+}
+/*^^^ header and tagline */
+
+#b1 {
+	color: #033048;
+	background-color: #f9e42e;
+	width: 160px;
+	height: 35px;
+	border: none;
+	font-size: 16px;
+	font-style: bold;
+	border-radius: 3px;
+	font-weight: 800;
+}
+/*^^^ first button (Get it Now) */
+
+#secnd {
+	background-color: #f0efef;
+	padding-top: 30px;
+	margin: auto;
+	padding-left: 50px;
+	padding-bottom: 10px;
+	color: #606161;
+	font-family: 'Open Sans', sans-serif;
+	height: 350px;
+}
+/*^^^ Second section */
+
+#Bene {
+	font-size: 24px;
+	font-weight: 600;
+	padding-left: 30px;
+	background-color: #f0efef;
+	font-family: 'Open Sans' ;
+	color: #033048;
+}
+/*^^^ Benefits */
+
+.BenePara{
+	padding-left: 35px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	background-color: #f0efef;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+}
+/*^^^ paragraph under Benefits */
+
+.list{
+	padding-left: 75px;
+	font-size: 16px;
+	padding-bottom: 30px;
+	background-color: #f0efef;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+}
+li {
+	padding-top: 5px;
+	list-style-position: inside;
+}
+/*^^^ the list */
+
+#third {
+	background-image: url(images/testimonial_bg.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	color: #f0efef; 
+	text-align: center;
+	height: 220px;
+	padding-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 20px;
+}
+/*^^^ third section including the qoute */
+
+#Amanda {
+	font-weight: 400;
+	font-size: 20px;
+	font-style: normal;
+	padding-bottom: 20px;
+	color: white;
+}
+/*^^^ Amanda, Intuit */
+
+#fourth{
+	background-color: #f9e42e;
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	align-content: center;
+	padding-top: 20px;
+}
+/*^^^ fourth section (the yellow/button section) */
+
+#b2 {
+	background-color: #033048;
+	width: 170px;
+	height: 35px;
+	border: none;
+	font-size: 13px;
+	border-radius: 3px;
+	font-weight: 800;
+	color: white;
+	margin: auto;
+	text-align: center;
+}
+/*^^^ the second button (sign up now!) */
+
+footer {
+	height: 170px;
+	background-color: #121212;
+	color: #f9e42e;
+	text-align: center;
+	height: 200px;
+	padding-top: 8px;
+	font-weight: normal;
+}
+/*^^^ the footer */
+
+#rlxr {
+	font-size: 30px;
+	font-weight: 900;
+}
+/*^^^ Relaxr logo in footer */
+
+img {
+	height: 20px;
+	width: auto;
+	padding-right: 20px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-top: 10
+}
+
+/*^^^ social media icons */
+
+footer p{
+	font-size: 10px;
+	font-weight: 400;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+/*^^^ copyrights in the footer */
+
+/* P.S. I changed some of the given styles,
+font-size and border radius mostly, because 
+it was wrong by 2-5 pixels. the color and 
+font-style however is consistent */
+
+
+
+
+
